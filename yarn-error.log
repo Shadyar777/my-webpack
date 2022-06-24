@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add -D webpack webpack-cli
+
+PATH: 
+  /home/shadiar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/shadiar/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "webpack-5",
+    "version": "1.0.0",
+    "description": "webpack,html,css,js",
+    "main": "index.js",
+    "author": "Shadyar",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

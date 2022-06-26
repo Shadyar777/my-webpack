@@ -7,17 +7,16 @@ const common = require('./webpack.common')
 
 module.exports = merge(common, {
   mode: 'production',
-  target: 'browserslist',
   devtool: false,
   output: {
     path: paths.build,
-    publicPath: '/',
+    publicPath: 'auto',
     filename: 'js/[name].[contenthash].bundle.js',
   },
   module: {
     rules: [
       {
-        test: /\.(sass|scss|css)$/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
           {

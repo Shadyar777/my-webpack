@@ -7,9 +7,6 @@ const common = require('./webpack.common')
 module.exports = merge(common, {
   // Установите режим для development или production
   mode: 'development',
-  
-  // target: 'wep',
-
   // Управляйте тем, как создаются исходные карты
   devtool: 'inline-source-map',
 
@@ -19,8 +16,6 @@ module.exports = merge(common, {
     open: true,
     compress: true,
     hot: true,
-    // contentBase: path.resolve(__dirname, 'public'),
-    // port: 8080,
   },
 
   module: {
